@@ -1,7 +1,5 @@
 <?php
 
-## Testing the comments
-
 $output = system("tar -czf test.tar.gx link/*", $retval);
 echo date('D, d-M-Y H00') . "\n";
 $date = date('d-m-Y');
